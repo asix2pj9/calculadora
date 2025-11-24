@@ -15,7 +15,7 @@ services:
     depends_on:
       - sCalculadora # Si SLlaunes no funciona, sDistribueixCarrega tampoc.
     ports:
-      - 80:80 # Exposa i publica el port 80 del proxy HTTP al 8000 de la màquina virtual
+      - 8000:80 # Exposa i publica el port 80 del proxy HTTP al 8000 de la màquina virtual
     networks:
       - xPj9f4a8 # Nom de la xarxa dins de docker-compose.yml
 
